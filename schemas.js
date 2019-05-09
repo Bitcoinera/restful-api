@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/restful-api', {useNewUrlParser: true});
+mongoose.connect('mongodb://mongo:27017/restful-api', {useNewUrlParser: true});
 
 const articleSchema = mongoose.Schema ({
     title: {
