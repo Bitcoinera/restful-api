@@ -1,3 +1,15 @@
+# Run with Docker
+```
+docker-compose up
+```
+# Run without Docker
+```
+npm i
+```
+```
+node app.js
+```
+
 # Build-Your-Own-RESTful-API
 
 ## Example Documents
